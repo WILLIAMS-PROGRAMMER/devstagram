@@ -1,0 +1,75 @@
+php artisan serve  enves de sail up con docker iniciar proyecto
+php artisan (comandos que laravel incluye)
+mysql(para ver base de datos)
+
+http://localhost:8000/   laravel por default puerto 8000
+puerto mysql default 3306
+
+PS C:\Users\Williams\Desktop\devstagram>
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwind init -p
+
+@php echo date('Y') @endphp  ==      {{now()->year}}  ( este es helpers documentacion en laravel)
+
+laravel usa MVC
+
+npm run dev (vite)
+
+php artisan make:controller RegisterController
+
+password_confirmation (laravel reconoce que es un campo para confirmar password)
+
+los formularios tienen serguridad de cross site request @csrf
+
+asset('img/registrar.jpg') // directo a la carpeta build
+
+https://larcontrollers#actions-handled-by-resource-controller
+
+dd() //Se llama dd que significa “dump and die”. Esta función es muy similar a dump(), pero cuando se la llama, finaliza la ejecución del script.
+
+php artisan migrate
+
+php artisan migrate:rollback
+php artisan migrate:rollback --step=3
+
+php artisan make:migration nombremigracion
+
+mysql -u
+
+show databases;
+use devstagram;
+show tables;
+describe users;
+
+php artisan make:migration add_username_to_users_table
+
+ctrl + p //buscar archivos
+
+php artisan migrate:refresh
+
+npm install --save dropzone
+
+composer require intervention/image:^2.7
+
+php artisan make:model Post
+
+php artisan make:factory Post
+
+php artisan tinker
+
+Post::factory()->times(200)->create();
+
+php artisan route:cache //para limpiar rutas
+
+php artisan route:list //lista todas las rutas
+
+php artisan make:model Follower -mc   //m:migration  c:controller
+
+php artisan make:component ListarPost
+
+php artisan view:clear
+
+composer require livewire/livewire
+
+
